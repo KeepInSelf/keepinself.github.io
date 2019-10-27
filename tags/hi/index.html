@@ -14,7 +14,7 @@
     
     
     
-    <title>拙言的博客 | 讷口拙言,须敏于行</title>
+    <title>Tags: hi | 拙言的博客 | 讷口拙言,须敏于行</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
     <meta name="theme-color" content="#3F51B5">
@@ -23,7 +23,7 @@
     <meta name="keywords" content>
     <meta property="og:type" content="website">
 <meta property="og:title" content="拙言的博客">
-<meta property="og:url" content="http://localhost:4000/index.html">
+<meta property="og:url" content="http://localhost:4000/tags/hi/index.html">
 <meta property="og:site_name" content="拙言的博客">
 <meta property="og:locale" content="zh-CN">
 <meta name="twitter:card" content="summary">
@@ -62,7 +62,7 @@
     <div class="scroll-wrap flex-col">
       <ul class="nav">
         
-            <li class="waves-block waves-effect active">
+            <li class="waves-block waves-effect">
               <a href="/"  >
                 <i class="icon icon-lg icon-home"></i>
                 主页
@@ -76,7 +76,7 @@
               </a>
             </li>
         
-            <li class="waves-block waves-effect">
+            <li class="waves-block waves-effect active">
               <a href="/tags"  >
                 <i class="icon icon-lg icon-tags"></i>
                 标签
@@ -122,7 +122,7 @@
         <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light on" id="menu-toggle">
           <i class="icon icon-lg icon-navicon"></i>
         </a>
-        <div class="flex-col header-title ellipsis">拙言的博客</div>
+        <div class="flex-col header-title ellipsis">Tags: hi</div>
         
         <div class="search-wrap" id="search-wrap">
             <a href="javascript:;" class="header-icon waves-effect waves-circle waves-light" id="back">
@@ -141,77 +141,54 @@
         
     </div>
 </header>
-<header class="content-header index-header">
+<header class="content-header tags-header">
 
     <div class="container fade-scale">
-        <h1 class="title">拙言的博客</h1>
+        <h1 class="title">Tags: hi</h1>
         <h5 class="subtitle">
-            
-                讷口拙言,须敏于行
             
         </h5>
     </div>
 
     
+<div class="tabs-bar container">
+    <nav class="tags-list">
+        <a href="/tags" style="-webkit-order:-1;order:-1" class="tags-list-item waves-effect waves-button waves-light
+            ">全部</a>
+        
+
+            <a href="/tags/hello/" style="-webkit-order:0;order:0" class="tags-list-item waves-effect waves-button waves-light">hello</a>
+
+        
+
+            <a href="/tags/hi/" style="-webkit-order:1;order:1" class="tags-list-item waves-effect waves-button waves-light active">hi</a>
+
+        
+    </nav>
+    <!-- PC show more-->
+    <div class="tags-list-more">
+        <a href="javascript:;" onclick="BLOG.tabBar(this)" class="action tags-list-item waves-effect waves-circle waves-light"><i class="icon icon-ellipsis-h"></i></a>
+    </div>
+</div>
+
 
 
 </header>
 
-<div class="container body-wrap">
-
-    <ul class="post-list">
+<div class="container body-wrap fade">
     
-        <li class="post-list-item fade">
-            <article id="post-test"
-  class="article-card article-type-post" itemprop="blogPost">
+            <div class="waterfall">
+          
 
+            <div class="waterfall-item">
+  <article class="article-card archive-article">
     <div class="post-meta">
-        <time class="post-time" title="2019-10-07 23:00:58" datetime="2019-10-07T15:00:58.000Z"  itemprop="datePublished">2019-10-07</time>
+      <time class="post-time" title="2013-07-13 20:46:25" datetime="2013-07-13T12:46:25.000Z"  itemprop="datePublished">2013-07-13</time>
 
-        
-
-
-    </div>
-
-    
-
-
-  
-    <h3 class="post-title" itemprop="name">
-      <a class="post-title-link" href="/2019/10/07/test/">test</a>
-    </h3>
-  
-
-
-
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        
-    
-
-        <a href="/2019/10/07/test/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
-    
-</article>
-
-        </li>
-    
-        <li class="post-list-item fade">
-            <article id="post-hello-world"
-  class="article-card article-type-post" itemprop="blogPost">
-
-    <div class="post-meta">
-        <time class="post-time" title="2013-07-13 20:46:25" datetime="2013-07-13T12:46:25.000Z"  itemprop="datePublished">2013-07-13</time>
-
-        
+      
 
 
     </div>
-
     
 
 
@@ -223,18 +200,6 @@
 
 
 
-
-    <div class="post-content" id="post-content" itemprop="postContent">
-
-    
-        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Qu...
-    
-
-        <a href="/2013/07/13/hello-world/" class="post-more waves-effect waves-button">
-            阅读全文…
-        </a>
-    </div>
     
     <div class="post-footer">
         
@@ -242,15 +207,15 @@ Qu...
 
     </div>
     
-</article>
-
-        </li>
-    
-    </ul>
-
-    
-
+  </article>
 </div>
+
+        
+            </div>
+        
+    
+</div>
+
 
         <footer class="footer">
     <div class="top">
@@ -291,7 +256,7 @@ Qu...
 <div class="global-share" id="globalShare">
     <ul class="reset share-icons">
       <li>
-        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/&title=拙言的博客&pic=http://localhost:4000/img/avatar.jpg" data-title="微博">
+        <a class="weibo share-sns" target="_blank" href="http://service.weibo.com/share/share.php?url=http://localhost:4000/tags/hi/&title=拙言的博客&pic=http://localhost:4000/img/avatar.jpg" data-title="微博">
           <i class="icon icon-weibo"></i>
         </a>
       </li>
@@ -301,22 +266,22 @@ Qu...
         </a>
       </li>
       <li>
-        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/&title=拙言的博客&source=" data-title=" QQ">
+        <a class="qq share-sns" target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://localhost:4000/tags/hi/&title=拙言的博客&source=" data-title=" QQ">
           <i class="icon icon-qq"></i>
         </a>
       </li>
       <li>
-        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/" data-title=" Facebook">
+        <a class="facebook share-sns" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/tags/hi/" data-title=" Facebook">
           <i class="icon icon-facebook"></i>
         </a>
       </li>
       <li>
-        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=拙言的博客&url=http://localhost:4000/&via=http://localhost:4000" data-title=" Twitter">
+        <a class="twitter share-sns" target="_blank" href="https://twitter.com/intent/tweet?text=拙言的博客&url=http://localhost:4000/tags/hi/&via=http://localhost:4000" data-title=" Twitter">
           <i class="icon icon-twitter"></i>
         </a>
       </li>
       <li>
-        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/" data-title=" Google+">
+        <a class="google share-sns" target="_blank" href="https://plus.google.com/share?url=http://localhost:4000/tags/hi/" data-title=" Google+">
           <i class="icon icon-google-plus"></i>
         </a>
       </li>
@@ -327,7 +292,7 @@ Qu...
 <div class="page-modal wx-share" id="wxShare">
     <a class="close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAAAAAAZai4+AAABU0lEQVR42u3awQ6EIAxFUf//p52tiYHc1+pi7GVlFOW4AErhOHA5b+V6f3V9r/9wkSXrQ6xzW+519m+tvszbkiVrMmvVQ1d1eGP77yzvy5IlC0/DtaeyZMl6Y4DgQbMsWbL2rP4U2wm1ZcmSxbM6/etX8luyZP056wwL/1qrFVmyhrF4B+YTOQmv0S/JkjWM9dQmZZpaQqG5LFljWDxJVFuI7n9s+VSWrDEs3mlTFhmTULgsS9YAVjqf84Ejnc5RnC5L1hgW6brpIjatKUvWZFZnQ4UHzcGAIkuWrHCY6Kef4hNJsmR9mlVLy6JmwmNDsmTNYdWOAqRTLxk4ZMmazKqdi+skjOKGZckaw+psjfBUUZqWkiVrJqvTyWsL1+AkkSxZsvAGJ38r2OaUJUtWY0OFJ3+XBlmyRrJI0MxTurVdS1myJrPSCLZ2EOF4o8iS9QXWD+RsnKR/Z6YpAAAAAElFTkSuQmCC" alt="微信分享二维码">
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAK4AAACuCAAAAACKZ2kyAAABw0lEQVR42u3aS26EMBAFQO5/abKOotiv29hMovIKaRhTsGi5P9cVr3u48n/9/PXasXBxcZe5CWXlkeM9y58DFxf3IPe3x+Rbj+/M95/YcHFxP5I7DlXVF8bFxf0f3DtY4/1xcXH/Cjc/uDxVr9ieq+Hi4i5w8yrlvust9V1cXNwW9y6uXuC7H1q4uLhnuL3jSx5hegnP5Lm4uLibuSvtkCRF6bVmJyEMFxd3MzcPVVEpszWEUW3i4uLi7ubmh5JqavRUmvTtHlxc3CPcaqjqNVPHyU81ZcLFxT3DTRKY9eNLHpgmd+Li4h7hVtErwxN5MWWiwsXFPc7NcfmIRi8FiqIvLi7uBm5ejOgVNaqF0cmnwcXFPcitDlUkKUq1+RrtgIuLe5ybbBT1bOPSSTV04uLinuTmXZdqubMKLSQ/uLi4m7m9EatqoaR5rHlqIgwXFzfw9EavegWRamsWFxf3Le5K8OoVQKtjFs2XwcXFXeb2mqBPXZdTLFxc3IPcaqDJx7NWkp9y5wcXF/clbnI0Gb9k3pIpj1/g4uK+yl0PTHnCg4uL+xb3qQNK3kTppVi4uLhnuNXHV1OgKnHlM+Hi4i5zvwDqfrlolkxb9wAAAABJRU5ErkJggg==" alt="微信分享二维码">
 </div>
 
 
