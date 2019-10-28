@@ -292,15 +292,15 @@
     <!-- Valine Comments script -->
     <script>
         var GUEST_INFO = ['nick','mail','link'];
-        var guest_info = 'nick,mail,link'.split(',').filter(function(item){
+        var guest_info = 'nick'.split(',').filter(function(item){
           return GUEST_INFO.indexOf(item) > -1
         });
         new Valine({
             el: '#comments',
             notify: 'false' == 'true',
             verify: 'false' == 'true',
-            appId: "",
-            appKey: "",
+            appId: "myR069xY8nfSuvX619CVFYk6-9Nh9j0Va",
+            appKey: "s30ojxugLK3HllxAAXdw2kNA",
             avatar: "mm",
             placeholder: "Just go go",
             guest_info: guest_info.length == 0 ? GUEST_INFO : guest_info,
